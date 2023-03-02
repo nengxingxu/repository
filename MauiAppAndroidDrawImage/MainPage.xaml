@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+  x:Class="MauiAppAndroidDrawImage.MainPage"
+  xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:v="clr-namespace:MauiAppAndroidDrawImage.Controls">
+
+  <StackLayout
+    HorizontalOptions="Fill"
+    Orientation="Vertical"
+    VerticalOptions="Fill">
+    <v:ViewCtrl
+      x:Name="view_ctrl_"
+      BackgroundColor="AliceBlue"
+      HorizontalOptions="FillAndExpand"
+      HorizontalScrollBarVisibility="Always"
+      Orientation="Both"
+      VerticalOptions="FillAndExpand"
+      VerticalScrollBarVisibility="Always" />
+  </StackLayout>
+
+</ContentPage>
